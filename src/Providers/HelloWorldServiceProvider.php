@@ -14,7 +14,7 @@ class HelloWorldServiceProvider extends ServiceProvider
 
   public function register()
   {
-    $this->getApplication()->register(HelloWorldServiceProvider::class);
+    $this->getApplication()->register(HelloWorldRouteServiceProvider::class);
   }
 }
 
